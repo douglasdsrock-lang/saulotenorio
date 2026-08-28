@@ -3,7 +3,6 @@ document.documentElement.classList.add('js');
 document.addEventListener('DOMContentLoaded', () => {
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const header = document.querySelector('.st-header');
-  const mobileCta = document.querySelector('.st-mobile-cta');
   let lastScroll = 0;
 
   if (window.lucide) window.lucide.createIcons();
@@ -32,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
       header.classList.toggle('scrolled', y > 32);
       header.classList.toggle('is-hidden', y > lastScroll && y > 260);
     }
-    if (mobileCta) mobileCta.classList.toggle('is-visible', y > window.innerHeight * .7);
     lastScroll = Math.max(0, y);
   };
   window.addEventListener('scroll', updateScrollUi, { passive: true });
