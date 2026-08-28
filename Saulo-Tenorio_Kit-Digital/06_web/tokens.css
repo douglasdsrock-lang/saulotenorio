@@ -1,0 +1,145 @@
+/* ==========================================================================
+   SAULO TENÓRIO — Design Tokens
+   Fonte da verdade: Manual de Marca & Estratégia Digital 2026, Parte III.
+   Não altere valores aqui sem atualizar o manual.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  /* ---------- Paleta oficial (p.11) ---------- */
+  --st-marinho-profundo: #0A1A2F;  /* 50% do uso — fundo base */
+  --st-marinho-medio:    #12283F;  /* 15% — blocos, cards, camadas */
+  --st-ouro:             #C99A3B;  /* 12% — destaque: filetes, ícones, títulos grandes */
+  --st-ouro-claro:       #E7C87E;  /*  5% — texto dourado sobre marinho */
+  --st-osso:             #F2EFE8;  /* 15% — fundo claro */
+  --st-grafite:          #23262B;  /*  3% — texto corrido sobre osso */
+  --st-terracota:        #B3452F;  /* única cor de apoio autorizada — erro/alerta */
+
+  /* ---------- Papéis semânticos ---------- */
+  --st-bg:               var(--st-marinho-profundo);
+  --st-bg-elevado:       var(--st-marinho-medio);
+  --st-bg-claro:         var(--st-osso);
+  --st-texto:            #F2EFE8;
+  --st-texto-suave:      rgba(242, 239, 232, 0.72);
+  --st-texto-claro-bg:   var(--st-grafite);
+  --st-acento:           var(--st-ouro);
+  --st-acento-texto:     var(--st-ouro-claro);   /* obrigatório p/ texto pequeno sobre marinho */
+  --st-borda:            rgba(201, 154, 59, 0.28);
+
+  /* ---------- Tipografia ---------- */
+  --st-font-display: 'Cinzel', 'Times New Roman', serif;          /* SÓ CAIXA ALTA */
+  --st-font-editorial: 'Playfair Display', Georgia, serif;        /* frases de impacto */
+  --st-font-texto: 'Montserrat', system-ui, -apple-system, sans-serif;
+
+  /* Escala fluida — mobile → desktop */
+  --st-fs-display: clamp(2.5rem, 6vw, 4.5rem);
+  --st-fs-h1:      clamp(2rem, 4.5vw, 3.25rem);
+  --st-fs-h2:      clamp(1.5rem, 3vw, 2.25rem);
+  --st-fs-h3:      clamp(1.25rem, 2vw, 1.5rem);
+  --st-fs-corpo:   clamp(1rem, 1.15vw, 1.125rem);
+  --st-fs-pequeno: 0.875rem;
+  --st-fs-selo:    0.75rem;
+
+  --st-lh-display: 1.15;
+  --st-lh-titulo:  1.25;
+  --st-lh-corpo:   1.6;
+
+  --st-ls-selo:    0.18em;   /* selos/etiquetas: +18% entre letras */
+  --st-ls-display: 0.06em;   /* Cinzel pede respiro */
+  --st-ls-cta:     0.08em;
+
+  /* ---------- Espaçamento (base 8) ---------- */
+  --st-sp-1: .5rem;  --st-sp-2: 1rem;  --st-sp-3: 1.5rem;
+  --st-sp-4: 2rem;   --st-sp-6: 3rem;  --st-sp-8: 4rem;
+  --st-sp-12: 6rem;  --st-sp-16: 8rem;
+
+  --st-container: 1200px;
+  --st-radius: 4px;          /* a marca é angular — nada de cantos muito redondos */
+  --st-radius-card: 8px;
+
+  /* ---------- Filete dourado (p.13) ---------- */
+  --st-filete: linear-gradient(90deg, var(--st-ouro) 0%, rgba(231,200,126,.9) 55%, rgba(231,200,126,0) 100%);
+  --st-filete-altura: 3px;
+
+  --st-transicao: 220ms cubic-bezier(.4, 0, .2, 1);
+}
+
+/* ==========================================================================
+   Aplicação base
+   ========================================================================== */
+body {
+  background: var(--st-bg);
+  color: var(--st-texto);
+  font-family: var(--st-font-texto);
+  font-size: var(--st-fs-corpo);
+  line-height: var(--st-lh-corpo);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .st-display {
+  font-family: var(--st-font-display);
+  text-transform: uppercase;           /* Cinzel NUNCA em caixa baixa */
+  letter-spacing: var(--st-ls-display);
+  line-height: var(--st-lh-titulo);
+  font-weight: 600;
+}
+
+.st-frase {                            /* frases-assinatura, citações */
+  font-family: var(--st-font-editorial);
+  font-size: var(--st-fs-h2);
+  line-height: 1.35;
+  text-transform: none;
+}
+
+.st-selo {                             /* etiquetas: "PARTE I · DIAGNÓSTICO" */
+  font-family: var(--st-font-texto);
+  font-weight: 600;
+  font-size: var(--st-fs-selo);
+  letter-spacing: var(--st-ls-selo);
+  text-transform: uppercase;
+  color: var(--st-acento);
+}
+
+.st-filete { height: var(--st-filete-altura); background: var(--st-filete); border: 0; }
+
+.st-secao-clara { background: var(--st-bg-claro); color: var(--st-texto-claro-bg); }
+.st-secao-clara .st-selo { color: #9A7429; }   /* ouro escurecido p/ contraste em fundo claro */
+
+/* CTA principal */
+.st-btn {
+  display: inline-block;
+  background: var(--st-ouro);
+  color: var(--st-marinho-profundo);
+  font-family: var(--st-font-texto);
+  font-weight: 700;
+  font-size: var(--st-fs-pequeno);
+  letter-spacing: var(--st-ls-cta);
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: var(--st-radius);
+  text-decoration: none;
+  transition: background var(--st-transicao), transform var(--st-transicao);
+}
+.st-btn:hover { background: var(--st-ouro-claro); transform: translateY(-2px); }
+.st-btn:focus-visible { outline: 3px solid var(--st-ouro-claro); outline-offset: 3px; }
+
+/* CTA secundário */
+.st-btn--fantasma {
+  background: transparent;
+  color: var(--st-ouro-claro);
+  border: 1px solid var(--st-borda);
+}
+.st-btn--fantasma:hover { background: rgba(201,154,59,.10); border-color: var(--st-ouro); }
+
+/* Logo no header — tamanho mínimo do manual: 320px de largura (p.10) */
+.st-logo { display: block; width: clamp(200px, 22vw, 320px); height: auto; }
+.st-logo--simbolo { width: clamp(40px, 5vw, 64px); }  /* mínimo 96px impresso / 40px tela */
+
+/* Área de respiro = altura da letra "S" do logotipo (p.10) */
+.st-logo-wrap { padding: calc(var(--st-fs-h3) * 0.7); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

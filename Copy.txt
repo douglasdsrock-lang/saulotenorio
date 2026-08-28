@@ -1,0 +1,166 @@
+# Copy da Página de Vendas — Homem de Propósito Inabalável
+### Transcrição estruturada por elementos (section, badge, headline, description, cards, cta, faq)
+
+---
+
+## DOBRA 01 — ABERTURA
+**[section: hero]**
+
+- **[badge]** Para o homem que sustenta uma casa e ainda carrega uma ferida
+- **[headline]** Homem de Propósito Inabalável
+- **[subheadline]** O seu excesso mostra a falta que mora dentro da sua alma.
+- **[description]** Um caminho de autoconhecimento para você entender a origem da sua história, ressignificar o que doeu e se tornar o homem que sua família, seu trabalho e seu propósito estão esperando.
+- **[cta]** Quero reconstruir minha história
+- **[credibility_tag]** Método baseado em comportamento humano, inteligência emocional e princípios cristãos
+
+---
+
+## DOBRA 02 — IDENTIFICAÇÃO
+**[section: pain/identification]**
+
+- **[badge]** Reconhecimento
+- **[headline]** Essa história é a sua?
+- **[description]** Todo excesso — de trabalho, de controle, de silêncio, de fuga — é um mapa. Ele aponta para o lugar exato onde existe uma falta que você nunca teve coragem de nomear.
+- **[lead_in]** Antes de qualquer mudança, existe um momento de honestidade. Leia devagar.
+- **[list: pain_points]**
+  - Você cresceu sentindo o peso de uma rejeição paterna que nunca foi dita em voz alta.
+  - O abandono, físico ou emocional, deixou uma pergunta que você carrega até hoje: "eu tinha valor?"
+  - Você tem dificuldade real de se expor e pedir ajuda — porque homem forte, na sua cabeça, resolve sozinho.
+  - Você já percebeu que vive dentro de um ciclo sabotador, repetindo escolhas que prometeu nunca repetir.
+  - No fundo, existe uma desconexão com a sua identidade — você não sabe mais, com clareza, quem você é fora dos papéis que exerce.
+
+---
+
+## DOBRA 03 — NOMEANDO O INIMIGO
+**[section: villain/enemy naming]**
+
+- **[badge]** O inimigo tem nome
+- **[headline]** A Síndrome de Adão
+- **[description]** Desde o princípio, o primeiro instinto do homem diante da própria falha não foi assumir — foi se esconder. Fugir da conversa difícil. Fugir da vulnerabilidade. Fugir da responsabilidade de liderar a própria casa. Terceirizar a culpa em vez de encarar a ferida.
+- **[reframe]** Essa não é fraqueza moral. É um padrão emocional aprendido — e padrões aprendidos podem ser desaprendidos.
+- **[subheadline]** Como a Síndrome de Adão aparece na prática:
+- **[list: symptoms]**
+  - Evitar a conversa que poderia curar o casamento
+  - Trabalhar em excesso para não sentir o vazio em casa
+  - Repetir com os filhos o silêncio que o pai repetiu com você
+  - Buscar alívio rápido — vício, distração, controle — em vez de raiz
+  - Se afastar exatamente quando deveria se aproximar
+
+---
+
+## DOBRA 04 — O MÉTODO (6 ETAPAS)
+**[section: method/steps]**
+
+- **[badge]** O caminho
+- **[headline]** Como a reconstrução acontece
+- **[description]** Não é uma fórmula de motivação. É um processo de reconhecimento — da raiz até a liderança.
+- **[cards: steps]**
+  - **[card 1 | title]** Etapa 1 — Origem: A formação da sua identidade
+    **[card 1 | text]** Entenda como os estímulos vividos desde a concepção até os 13 anos — positivos e negativos — moldaram o seu perfil comportamental e a forma como você hoje enxerga a si mesmo, sua família e o mundo.
+  - **[card 2 | title]** Etapa 2 — Diagnóstico: A ferida por trás do comportamento
+    **[card 2 | text]** Identifique as dores emocionais que nasceram dessa formação e como elas hoje se manifestam de forma disfarçada — na vida afetiva, no casamento, na paternidade, na carreira, na fé.
+  - **[card 3 | title]** Etapa 3 — Reconhecimento: Seu estado atual, sem filtros
+    **[card 3 | text]** A partir de situações reais do dia a dia, você se enxerga com clareza — não para se culpar, mas para finalmente entender onde está parado e por quê.
+  - **[card 4 | title]** Etapa 4 — Ressignificação: Um novo significado para a sua história
+    **[card 4 | text]** De forma individual e baseada na sua própria trajetória, você ressignifica o que doeu — não apagando o passado, mas tirando dele o poder que ainda tinha sobre o seu presente.
+  - **[card 5 | title]** Etapa 5 — Aplicação: Novas estratégias para seguir
+    **[card 5 | text]** Ferramentas práticas de comportamento humano e inteligência emocional para sustentar a mudança no dia a dia — em casa, no trabalho, na sua relação com Deus.
+  - **[card 6 | title]** Etapa 6 — Continuidade: O próximo passo, se você quiser ir mais fundo
+    **[card 6 | text]** Para quem deseja um acompanhamento ainda mais próximo, existe a possibilidade de seguir para uma mentoria individual.
+
+---
+
+## DOBRA 05 — POR QUE FUNCIONA + O QUE MUDA
+**[section: differentiators + transformation]**
+
+- **[badge]** Por que esse método é diferente
+- **[headline]** Três alicerces, uma só direção
+- **[description]** Enquanto o mercado ensina o homem a agir como forte, aqui ele se torna forte por dentro — com base em autoconhecimento individual, ciência do comportamento humano e princípios cristãos.
+
+- **[cards: pillars]**
+  - **[card 1 | title]** Autoconhecimento — Individual, não genérico
+    **[card 1 | text]** Não é um conteúdo padronizado. É um processo de olhar para a sua própria história — porque a sua ferida tem a sua origem, e a sua cura precisa do mesmo cuidado.
+  - **[card 2 | title]** Ciência — Base em comportamento humano
+    **[card 2 | text]** Fundamentado em comportamento humano e inteligência emocional — não em opinião ou fórmula motivacional de rede social.
+  - **[card 3 | title]** Fé — Alicerçado em princípios cristãos
+    **[card 3 | text]** Porque para muitos homens, a reconstrução da identidade também passa por entender quem eles são diante de Deus — não só diante do espelho.
+
+- **[subsection: transformation]**
+  - **[headline]** A vida que passa a ser possível
+  - **[list: benefits]**
+    - **Família:** Conduzir sua casa como referência espiritual e emocional, não como ausência que se repete.
+    - **Paternidade:** Quebrar o ciclo que você viveu e se tornar o pai presente que você não teve.
+    - **Liberdade:** Encarar de frente padrões como vícios em drogas ou pornografia — não como fraqueza, mas como algo que pode ser trabalhado na raiz.
+    - **Identidade:** Deixar de reagir à vida a partir da dor antiga e passar a agir a partir de quem você realmente é.
+
+---
+
+## DOBRA 06 — PARA QUEM É / NÃO É
+**[section: qualification]**
+
+- **[badge]** Antes de decidir
+- **[headline]** Para quem é — e para quem não é
+
+- **[list: is_for_you]** É PARA VOCÊ SE:
+  - Você sente que carrega uma dor do passado que nunca foi encarada
+  - Você quer romper um ciclo antes de repeti-lo com seus filhos
+  - Você está disposto a se expor e olhar para dentro, mesmo com medo
+  - Você busca uma transformação real, não uma dose de motivação
+
+- **[list: not_for_you]** NÃO É PARA VOCÊ SE:
+  - Você busca uma fórmula mágica sem nenhum esforço da sua parte
+  - Você não está disposto, hoje, a olhar para a própria história
+  - Você está em crise ativa de dependência química e precisa de suporte médico imediato — nesse caso, esse método complementa, mas não substitui, acompanhamento profissional
+
+- **[closing_statement]** A verdade é simples: a mudança só acontece se você estiver 100% comprometido com ela. O método é o caminho. A caminhada é sua.
+
+---
+
+## DOBRA 07 — OFERTA (BÔNUS + PREÇO + ANCORAGEM + CTA)
+**[section: offer/pricing]**
+
+- **[badge]** O investimento
+- **[headline]** Comece sua reconstrução hoje
+- **[subheadline]** Acesso completo ao método Homem de Propósito Inabalável
+
+- **[list: whats_included]** O que está incluso:
+  - Método completo em 6 etapas, do zero à liderança
+  - Material em PDF de apoio para os conteúdos-chave
+  - Suporte durante a jornada
+  - Certificado de conclusão
+  - **[bonus]** Devolutiva individual — uma análise pessoal da sua jornada ao final do curso
+  - **[bonus]** Avaliação de perfil profissional
+
+- **[price]** R$ 297 ou 12x
+- **[anchor/comparison]** Menos que o valor de uma única sessão avulsa de terapia — para começar a resolver a raiz, não só o sintoma.
+- **[cta]** Quero minha vaga agora
+- **[microcopy]** Acesso imediato após a confirmação
+
+---
+
+## DOBRA 08 — FECHAMENTO (COMPROMISSO + FAQ + CTA FINAL)
+**[section: closing + faq + final cta]**
+
+- **[badge]** Um compromisso, não uma promessa vazia
+- **[description]** Eu não prometo uma solução mágica. Prometo um caminho real — com método, ciência e fé. Mas esse caminho só te leva a algum lugar se você caminhar por ele.
+
+- **[faq]**
+  - **[faq_headline]** Antes de você decidir
+  - **[faq_item 1 | question]** E se eu não conseguir mudar?
+    **[faq_item 1 | answer]** O medo de não conseguir é, ele mesmo, parte do padrão que o método trabalha. Você não precisa ter certeza antes de começar — precisa estar disposto a começar mesmo com a dúvida.
+  - **[faq_item 2 | question]** Preciso me expor muito? Tenho dificuldade com isso.
+    **[faq_item 2 | answer]** O processo é individual e no seu ritmo. Ninguém vai te expor publicamente — a exposição aqui é com você mesmo, primeiro passo para qualquer mudança real.
+  - **[faq_item 3 | question]** Não tenho muito tempo. Isso funciona mesmo assim?
+    **[faq_item 3 | answer]** O método foi pensado para o homem que já sustenta responsabilidades reais — família, trabalho. Você avança no seu ritmo, com material objetivo e aplicável ao seu dia a dia.
+  - **[faq_item 4 | question]** Isso tem base religiosa? Preciso ser de alguma igreja específica?
+    **[faq_item 4 | answer]** O método é alicerçado em princípios cristãos, unidos a fundamentos técnicos de comportamento humano e inteligência emocional. Não é necessário pertencer a nenhuma denominação específica.
+  - **[faq_item 5 | question]** Isso substitui terapia ou tratamento médico?
+    **[faq_item 5 | answer]** Não. É um método de autoconhecimento, identidade e propósito. Em casos de dependência química ativa, transtornos psicológicos diagnosticados ou crise emocional aguda, ele deve caminhar junto com acompanhamento médico ou psicológico profissional, não no lugar dele.
+
+- **[disclaimer]** Aviso: Este produto não garante resultados específicos — os resultados dependem do empenho individual de cada aluno.
+
+- **[final_headline]** Quem vai ocupar esse lugar de falta em você?
+- **[final_description]** Você já entendeu que o seu excesso aponta para uma raiz. Agora é decidir se vai continuar fugindo dela — ou se vai, enfim, encará-la.
+- **[cta: final]** Quero começar minha reconstrução
+
+- **[footer]** Homem de Propósito Inabalável — Todos os direitos reservados
